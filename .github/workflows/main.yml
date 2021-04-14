@@ -52,9 +52,9 @@ jobs:
 
         with:
 
-          source_repo: "https://github.com/monk-coder/dust.git"
+          source_repo: "https://github.com/mixool/jd_sku.git"
 
-          source_branch: "dust"
+          source_branch: "main"
 
           destination_branch: "main"
 
