@@ -26,9 +26,9 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/RikudouPatrickstar/dust/tree/dust.git"
-          source_branch: "dust"
-          destination_branch: "dust"
+          source_repo: "https://github.com/lxrcbw/dust/tree/master.git"
+          source_branch: "master"
+          destination_branch: "master"
           github_token: ${{ secrets.PAT }}
       # 我自己同步到gitee使用，其他人可忽略
       - name: sync github -> gitee
